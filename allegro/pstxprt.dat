@@ -1,14 +1,14 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 16.6.0 d001Feb-23-2014 at 15:42:09 }
+{ Using PSTWRITER 16.6.0 d001Feb-26-2014 at 18:26:07 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='DELAY';
- POST_TIME='Oct 28 2013 13:12:55';
+ POST_TIME='Jan 13 2014 18:46:08';
  SOURCE_TOOL='CAPTURE_WRITER';
 END_DIRECTIVES;
 
 PART_NAME
- J1 'HEADER 1_HEADER1_A':;
+ DL1_A 'HEADER 1_HEADER1_A':;
 
 SECTION_NUMBER 1
  '@DELAY.SCHEMATIC1(SCH_1):INS24@CONNECTOR.HEADER 1.NORMAL(CHIPS)':
@@ -18,12 +18,52 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- J2 'HEADER 1_HEADER1_B':;
+ DL1_B 'HEADER 1_HEADER1_B':;
 
 SECTION_NUMBER 1
  '@DELAY.SCHEMATIC1(SCH_1):INS38@CONNECTOR.HEADER 1.NORMAL(CHIPS)':
  C_PATH='@delay.schematic1(sch_1):ins38@connector.\header 1.normal\(chips)',
  P_PATH='@delay.schematic1(sch_1):page1_ins38@connector.\header 1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ DL2_A 'HEADER 1_HEADER1_A':;
+
+SECTION_NUMBER 1
+ '@DELAY.SCHEMATIC1(SCH_1):INS707@CONNECTOR.HEADER 1.NORMAL(CHIPS)':
+ C_PATH='@delay.schematic1(sch_1):ins707@connector.\header 1.normal\(chips)',
+ P_PATH='@delay.schematic1(sch_1):page1_ins707@connector.\header 1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ DL2_B 'HEADER 1_HEADER1_B':;
+
+SECTION_NUMBER 1
+ '@DELAY.SCHEMATIC1(SCH_1):INS721@CONNECTOR.HEADER 1.NORMAL(CHIPS)':
+ C_PATH='@delay.schematic1(sch_1):ins721@connector.\header 1.normal\(chips)',
+ P_PATH='@delay.schematic1(sch_1):page1_ins721@connector.\header 1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'CONN FLEX 24_FFC24-05_CONN FLEX':;
+
+SECTION_NUMBER 1
+ '@DELAY.SCHEMATIC1(SCH_1):INS903@CONNECTOR.CONN FLEX 24.NORMAL(CHIPS)':
+ C_PATH='@delay.schematic1(sch_1):ins903@connector.\conn flex 24.normal\(chips)',
+ P_PATH='@delay.schematic1(sch_1):page1_ins903@connector.\conn flex 24.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J2 'HEADER 12X2_HEADER-2X12_HEADER':;
+
+SECTION_NUMBER 1
+ '@DELAY.SCHEMATIC1(SCH_1):INS1016@CONNECTOR.HEADER 12X2.NORMAL(CHIPS)':
+ C_PATH='@delay.schematic1(sch_1):ins1016@connector.\header 12x2.normal\(chips)',
+ P_PATH='@delay.schematic1(sch_1):page1_ins1016@connector.\header 12x2.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 

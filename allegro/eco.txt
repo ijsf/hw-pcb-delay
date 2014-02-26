@@ -3,53 +3,178 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  C:/WORK/CAM/PCB-DELAY/allegro/DELAY.brd                                     |
-|                                                    Sun Feb 23 15:42:13 2014  |
+|                                                    Wed Feb 26 18:26:10 2014  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |                net     pins                  |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  N00052       pins ADDED TO this new net
-                                 J1.1           J2.1           
+  N00052       net RENAMED (to net name listed on right)           N01076       
+               pins MOVED FROM this net (to net name listed on right)
+                                 DL1_A.1         23.0000  2.5000
+                                                                         N00052
+                                 DL1_B.1         18.0000  2.5000
+                                                                         N00052
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00737       pins ADDED TO this new net
+                                 DL2_A.1                        
+                                 DL2_B.1                        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01083       pins ADDED TO this new net
+                                 J1.2                           
+                                 J2.2                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01095       pins ADDED TO this new net
+                                 J1.3                           
+                                 J2.3                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01102       pins ADDED TO this new net
+                                 J1.5                           
+                                 J2.5                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01116       pins ADDED TO this new net
+                                 J1.7                           
+                                 J2.7                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01123       pins ADDED TO this new net
+                                 J1.24                          
+                                 J2.24                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01130       pins ADDED TO this new net
+                                 J1.22                          
+                                 J2.22                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01137       pins ADDED TO this new net
+                                 J1.20                          
+                                 J2.20                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01144       pins ADDED TO this new net
+                                 J1.9                           
+                                 J2.9                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01162       pins ADDED TO this new net
+                                 J1.11                          
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
 |  C:/WORK/CAM/PCB-DELAY/allegro/DELAY.brd                                     |
-|                                                    Sun Feb 23 15:42:13 2014  |
+|                                                    Wed Feb 26 18:26:10 2014  |
 |------------------------------------------------------------------------------|
-| COMPONENT DEFINITION added to design                                         |
+| NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    device type                                                               |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- HEADER 1_HEADER1_A
- HEADER 1_HEADER1_B
+                                 J2.11                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01184       pins ADDED TO this new net
+                                 J1.13                          
+                                 J2.13                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01202       pins ADDED TO this new net
+                                 J1.15                          
+                                 J2.15                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01220       pins ADDED TO this new net
+                                 J1.17                          
+                                 J2.17                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01238       pins ADDED TO this new net
+                                 J1.19                          
+                                 J2.19                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01256       pins ADDED TO this new net
+                                 J1.21                          
+                                 J2.21                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01274       pins ADDED TO this new net
+                                 J1.23                          
+                                 J2.23                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01296       pins ADDED TO this new net
+                                 J1.18                          
+                                 J2.18                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01314       pins ADDED TO this new net
+                                 J1.16                          
+                                 J2.16                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01336       pins ADDED TO this new net
+                                 J1.14                          
+                                 J2.14                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01354       pins ADDED TO this new net
+                                 J1.12                          
+                                 J2.12                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01383       pins ADDED TO this new net
+                                 J1.10                          
+                                 J2.10                          
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   3  |
 |------------------------------------------------------------------------------|
 |  C:/WORK/CAM/PCB-DELAY/allegro/DELAY.brd                                     |
-|                                                    Sun Feb 23 15:42:13 2014  |
+|                                                    Wed Feb 26 18:26:10 2014  |
 |------------------------------------------------------------------------------|
-| COMPONENTS ADDED to design                                                   |
+| NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type                                           |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- J1                  HEADER 1_HEADER1_A    
- J2                  HEADER 1_HEADER1_B    
+  N01431       pins ADDED TO this new net
+                                 J1.8                           
+                                 J2.8                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01453       pins ADDED TO this new net
+                                 J1.6                           
+                                 J2.6                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01792       pins ADDED TO this new net
+                                 J1.4                           
+                                 J2.4                           
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   4  |
 |------------------------------------------------------------------------------|
 |  C:/WORK/CAM/PCB-DELAY/allegro/DELAY.brd                                     |
-|                                                    Sun Feb 23 15:42:13 2014  |
+|                                                    Wed Feb 26 18:26:10 2014  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ CONN FLEX 24_FFC24-05_CONN FLEX
+ HEADER 12X2_HEADER-2X12_HEADER
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  C:/WORK/CAM/PCB-DELAY/allegro/DELAY.brd                                     |
+|                                                    Wed Feb 26 18:26:10 2014  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ DL2_A               HEADER 1_HEADER1_A    
+ DL2_B               HEADER 1_HEADER1_B    
+ J1                  CONN FLEX 24_FFC24-05_CONN FLEX 
+ J2                  HEADER 12X2_HEADER-2X12_HEADER 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  C:/WORK/CAM/PCB-DELAY/allegro/DELAY.brd                                     |
+|                                                    Wed Feb 26 18:26:10 2014  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- J1.1                           PRIM_FILE      .\pstchip.dat
- J2.1                           PRIM_FILE      .\pstchip.dat
+ DL2_A.1                        PRIM_FILE      .\pstchip.dat
+ DL2_B.1                        PRIM_FILE      .\pstchip.dat
+ J1.9                           PRIM_FILE      .\pstchip.dat
+ J2.9                           PRIM_FILE      .\pstchip.dat
 |------------------------------------------------------------------------------|
-|   total ECO changes reported  8                                              |
+|   total ECO changes reported  61                                             |
 |------------------------------------------------------------------------------|

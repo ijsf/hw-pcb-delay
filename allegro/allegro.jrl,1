@@ -1,117 +1,459 @@
-\t (00:00:05) allegro 16.6 S019 (v16-6-112BG) Windows 32
-\t (00:00:05)     Journal start - Sun Feb 23 15:42:23 2014
-\t (00:00:05)         Host=IJSFT User=ijsf Pid=4632 CPUs=2
-\t (00:00:05) 
-\t (00:00:07) Opening existing design...
-\d (00:00:07) Database opened: C:/WORK/CAM/PCB-DELAY/allegro/DELAY.brd
-\t (00:00:08) Grids are drawn 2.0000, 2.0000 apart for enhanced viewability.
-\i (00:00:08) trapsize 15285
-\i (00:00:08) trapsize 14384
-\i (00:00:08) trapsize 15446
-\i (00:00:08) trapsize 15625
-\t (00:00:11) Grids are drawn 1.0000, 1.0000 apart for enhanced viewability.
-\i (00:00:11) trapsize 10504
-\i (00:00:11) trapsize 10504
-\i (00:00:12) generaledit 
-\i (00:00:15) trapsize 7689
-\i (00:00:22) place manual 
-\i (00:00:24) setwindow form.plc_manual
-\i (00:00:24) FORM plc_manual tree 'MULTISEL YES' J1 'Components by refdes' 
-\t (00:00:24) Placing J1 / HEADER 1_HEADER1_A / HEADER1 on Top.
-\i (00:00:24) FORM plc_manual tree  J1 'Components by refdes' 
-\i (00:00:25) FORM plc_manual tree 'MULTISEL YES' J2 'Components by refdes' 
-\i (00:00:25) FORM plc_manual tree  J2 'Components by refdes' 
-\i (00:00:36) setwindow pcb
-\i (00:00:36) show property 
-\i (00:00:38) setwindow form.show_prop
-\i (00:00:38) FORM show_prop done  
-\i (00:00:46) setwindow pcb
-\i (00:00:46) image restore last 
-   (00:00:46) Loading ui.cxt 
-\i (00:00:56) showhide options 
-\i (00:00:57) trapsize 9921
-\i (00:01:02) image restore last 
-\i (00:01:10) zoom in 
-\i (00:01:10) setwindow pcb
-\i (00:01:10) zoom in 35.7143 24.8016
-\i (00:01:10) trapsize 4960
-\i (00:01:11) roam y -96 
-\i (00:01:11) roam y -96
-\i (00:01:11) roam y -96 
-\i (00:01:11) roam y -96
-\i (00:01:14) zoom in 
-\i (00:01:14) setwindow pcb
-\i (00:01:14) zoom in 25.8929 43.8492
-\i (00:01:14) trapsize 2480
-\i (00:01:15) roam x -96 
-\i (00:01:15) roam x -96
-\i (00:01:15) roam x -96 
-\i (00:01:15) roam x -96
-\i (00:01:15) roam x -96 
-\i (00:01:15) roam x -96
-\i (00:01:16) roam x 96 
-\i (00:01:16) roam x 96
-\i (00:01:16) roam x 96 
-\i (00:01:16) roam x 96
-\i (00:01:16) roam x -96 
-\i (00:01:16) roam x -96
-\i (00:01:35) setwindow form.plc_manual
-\i (00:01:35) FORM plc_manual cancel  
-\i (00:01:36) setwindow pcb
-\i (00:01:36) generaledit 
-\i (00:01:37) zoom out 
-\i (00:01:37) setwindow pcb
-\i (00:01:37) zoom out 16.3690 43.8492
-\i (00:01:37) trapsize 4960
-\i (00:01:38) roam y 96 
-\i (00:01:38) roam y 96
-\i (00:01:38) roam y 96 
-\i (00:01:38) roam y 96
-\i (00:02:01) setwindow form.mini
-\i (00:02:01) FORM mini class PLAN 
-\i (00:02:09) FORM mini class BOARD GEOMETRY 
-\i (00:02:15) FORM mini subclass ASSEMBLY_DETAIL 
-\i (00:02:25) FORM mini subclass ASSEMBLY_NOTES 
-\i (00:02:26) setwindow pcb
-\i (00:02:26) generaledit 
-\i (00:02:28) etchedit 
-\i (00:02:31) generaledit 
-\i (00:02:40) setwindow form.mini
-\i (00:02:40) FORM mini class BOARD GEOMETRY 
-\i (00:02:42) FORM mini subclass SILKSCREEN_TOP 
-\i (00:02:49) setwindow pcb
-\i (00:02:49) roam y -96 
-\i (00:02:49) roam y -96
-\i (00:02:49) roam y -96 
-\i (00:02:49) roam y -96
-\i (00:02:49) roam y 96 
-\i (00:02:49) roam y 96
-\i (00:02:56) roam y 96 
-\i (00:02:56) roam y 96
-\i (00:02:56) roam y 96 
-\i (00:02:56) roam y 96
-\i (00:02:57) roam y -96 
-\i (00:02:57) roam y -96
-\i (00:02:59) roam y -96 
-\i (00:02:59) roam y -96
-\i (00:03:16) roam y 96 
-\i (00:03:16) roam y 96
-\i (00:03:16) roam y 96 
-\i (00:03:16) roam y 96
-\i (00:03:16) roam y 96 
-\i (00:03:16) roam y 96
-\i (00:03:19) place manual 
-\i (00:03:22) setwindow form.plc_manual
-\i (00:03:22) FORM plc_manual tree 'MULTISEL YES' J1 'Components by refdes' 
-\t (00:03:22) Placing J1 / HEADER 1_HEADER1_A / HEADER1 on Top.
-\i (00:03:22) FORM plc_manual tree  J1 'Components by refdes' 
-\i (00:03:23) FORM plc_manual tree 'MULTISEL YES' J2 'Components by refdes' 
-\i (00:03:23) FORM plc_manual tree  J2 'Components by refdes' 
-\i (00:04:48) setwindow pcb
-\i (00:04:48) pick grid 12.3015 2.0834
-\t (00:04:48) last pick:  12.5000  2.0000
-\t (00:04:48) Placing J2 / HEADER 1_HEADER1_B / HEADER1 on Top.
-\i (00:04:54) pick grid 12.6983 19.8413
-\t (00:04:54) last pick:  12.5000  20.0000
-\i (00:04:57) setwindow form.plc_manual
-\i (00:0
+\t (03:42:30) allegro 16.6 S023 (v16-6-112BQ) Windows 32
+\t (03:42:30)     Journal start - Wed Feb 26 19:04:55 2014
+\t (03:42:30)         Host=IJSFT User=ijsf Pid=5564 CPUs=2
+\t (03:42:30) CmdLine= tools\pcb\bin\allegro -safe
+\t (03:42:30) 
+\d (03:42:30) Design opened: C:/work/cam/pcb-delay/allegro/DELAY.brd
+\i (03:42:31) generaledit 
+\i (03:42:35) dxf in 
+\i (03:42:36) generaledit 
+\i (03:42:39) setwindow form.dxfInMain
+\i (03:42:39) FORM dxfInMain incremental YES 
+\i (03:42:41) FORM dxfInMain fillshapes YES 
+\i (03:42:42) FORM dxfInMain texttable YES 
+\i (03:42:42) FORM dxfInMain texttable NO 
+\i (03:42:50) FORM dxfInMain browsedxf  
+\i (03:42:59) fillin "C:\work\Dropbox\Stash\ARM Cluster\branding\ArminoLogo2vWIT.dxf"
+\i (03:43:01) FORM dxfInMain editcnvprofile  
+\i (03:43:03) setwindow form.dxfInMapping
+\i (03:43:03) FORM dxfInMapping cancel  
+\i (03:43:04) setwindow form.dxfInMain
+\i (03:43:04) FORM dxfInMain import  
+\t (03:43:04) Starting dxf2a...
+\w (03:43:09) WARNING(SPMHGE-269): dxf2a had warnings, use Viewlog to review the log file.
+\t (03:43:09) Opening existing design...
+\i (03:43:09) setwindow pcb
+\i (03:43:09) trapsize 1260
+\e (03:43:11) Problems encountered during import. View log.
+\i (03:43:13) setwindow text
+\i (03:43:13) close 
+\i (03:43:14) setwindow form.dxfInMain
+\i (03:43:14) FORM dxfInMain cancel  
+\i (03:43:14) setwindow pcb
+\i (03:43:14) generaledit 
+\i (03:43:15) zoom fit 
+\t (03:43:15) Grids are drawn 0.5000, 0.5000 apart for enhanced viewability.
+\i (03:43:15) trapsize 5039
+\i (03:43:22) zoom out 
+\i (03:43:22) setwindow pcb
+\i (03:43:22) zoom out 12.5000 24.8992
+\t (03:43:22) Grids are drawn 1.0000, 1.0000 apart for enhanced viewability.
+\i (03:43:22) trapsize 10078
+\i (03:43:23) zoom out 
+\i (03:43:23) setwindow pcb
+\i (03:43:23) zoom out 58.6451 25.5920
+\t (03:43:23) Grids are drawn 2.0000, 2.0000 apart for enhanced viewability.
+\i (03:43:23) trapsize 17328
+\i (03:43:23) zoom out 
+\i (03:43:23) setwindow pcb
+\i (03:43:23) zoom out 127.8089 61.9864
+\i (03:43:23) trapsize 17328
+\i (03:43:24) drag_start grid 72.0128 115.0101
+\i (03:43:24) drag_stop
+\i (03:43:25) drag_start 72.7059 112.2376
+\i (03:43:27) drag_stop 133.0073 148.9729
+\i (03:43:28) drag_start 146.5231 115.0101
+\i (03:43:29) drag_stop 4.4337 148.9729
+\i (03:43:31) prepopup 105.6291 144.1211
+\i (03:43:32) pop dyn_option_select @:@Move 
+\i (03:43:32) move 
+\t (03:43:33) last pick:  105.7500 144.0000
+\t (03:43:33) Element has no origin, using pick.
+\t (03:43:33) Element has no origin, using pick.
+\t (03:43:33) Pick new location for the element(s).
+\i (03:43:35) pick grid 8.2459 51.2431
+\t (03:43:35) last pick:  8.2500 51.2500
+\i (03:43:35) generaledit 
+\i (03:43:36) zoom fit 
+\t (03:43:36) Grids are drawn 0.5000, 0.5000 apart for enhanced viewability.
+\i (03:43:36) trapsize 5039
+\i (03:43:38) prepopup 8.7711 42.4351
+\i (03:43:40) pop dyn_option_select @:@Move 
+\i (03:43:41) move 
+\t (03:43:41) last pick:  8.7500 42.5000
+\t (03:43:41) Element has no origin, using pick.
+\t (03:43:41) Element has no origin, using pick.
+\t (03:43:41) Pick new location for the element(s).
+\i (03:43:42) pick grid 8.7711 27.0156
+\t (03:43:42) last pick:  8.7500 27.0000
+\i (03:43:43) generaledit 
+\i (03:43:44) prepopup 12.9031 31.1476
+\i (03:43:52) pop dyn_option_select @:@Expand/Contract 
+\i (03:43:52) change shape size 
+\i (03:44:09) shape select 
+\i (03:44:11) prepopup 28.8265 38.7062
+\i (03:44:14) done 
+\i (03:44:14) generaledit 
+\i (03:44:15) shape select 
+\i (03:44:17) pick grid 29.6328 38.5046
+\t (03:44:17) last pick:  29.7500 38.5000
+\i (03:44:18) prepopup 29.8343 38.9078
+\i (03:44:21) cancel 
+\i (03:44:22) generaledit 
+\i (03:44:24) zoom in 
+\i (03:44:24) setwindow pcb
+\i (03:44:24) zoom in 12.5000 24.8992
+\i (03:44:24) trapsize 2520
+\i (03:44:25) roam y -96 
+\i (03:44:25) roam y -96
+\i (03:44:25) roam y -96 
+\i (03:44:25) roam y -96
+\i (03:44:26) roam x 96 
+\i (03:44:26) roam x 96
+\i (03:44:28) zoom in 
+\i (03:44:28) setwindow pcb
+\i (03:44:28) zoom in 17.3248 34.5615
+\i (03:44:28) trapsize 1260
+\i (03:44:29) roam x 96 
+\i (03:44:29) roam x 96
+\i (03:44:29) roam x 96 
+\i (03:44:29) roam x 96
+\i (03:44:29) roam x 96 
+\i (03:44:29) roam x 96
+\i (03:44:31) pick grid 31.7114 38.0133
+\t (03:44:31) last pick:  31.7500 38.0000
+\i (03:44:33) delete 
+\i (03:44:33) generaledit 
+\i (03:44:34) undo 
+\i (03:44:34) trapsize 1260
+\i (03:44:34) generaledit 
+\i (03:44:35) roam y -96 
+\i (03:44:35) roam y -96
+\i (03:44:40) roam y 96 
+\i (03:44:40) roam y 96
+\i (03:44:40) roam y 96 
+\i (03:44:40) roam y 96
+\i (03:44:40) roam y 96 
+\i (03:44:40) roam y 96
+\i (03:44:41) roam x -96 
+\i (03:44:41) roam x -96
+\i (03:44:41) roam x -96 
+\i (03:44:41) roam x -96
+\i (03:44:41) roam y 96 
+\i (03:44:41) roam y 96
+\i (03:44:41) roam y 96 
+\i (03:44:41) roam y 96
+\i (03:44:42) roam y -96 
+\i (03:44:42) roam y -96
+\i (03:44:42) roam y -96 
+\i (03:44:42) roam y -96
+\i (03:44:42) roam y -96 
+\i (03:44:42) roam y -96
+\i (03:44:42) roam x 96 
+\i (03:44:42) roam x 96
+\i (03:44:42) roam x 96 
+\i (03:44:42) roam x 96
+\i (03:44:42) roam y -96 
+\i (03:44:42) roam y -96
+\i (03:44:42) roam y -96 
+\i (03:44:42) roam y -96
+\i (03:44:43) roam x 96 
+\i (03:44:43) roam x 96
+\i (03:44:47) pick grid 31.9886 39.1976
+\t (03:44:47) last pick:  32.0000 39.2500
+\i (03:44:51) pick grid 32.9712 39.2984
+\t (03:44:51) last pick:  33.0000 39.2500
+\i (03:44:52) pick grid 31.4343 38.3410
+\t (03:44:52) last pick:  31.5000 38.2500
+\i (03:44:53) pick grid 31.3587 38.3410
+\t (03:44:53) last pick:  31.2500 38.2500
+\i (03:44:54) prepopup 31.2831 38.3410
+\i (03:45:18) pick grid 35.7931 38.3158
+\t (03:45:18) last pick:  35.7500 38.2500
+\i (03:45:18) pick grid 32.1650 39.0968
+\t (03:45:18) last pick:  32.2500 39.0000
+\i (03:45:23) shape void element 
+\i (03:45:25) pick grid 31.3083 37.8874
+\t (03:45:25) last pick:  31.2500 38.0000
+\e (03:45:25) Cannot void a non-etch shape.
+\t (03:45:25) Pick element to be voided.
+\i (03:45:26) pick grid 31.3083 38.1142
+\t (03:45:26) last pick:  31.2500 38.0000
+\e (03:45:26) Cannot void a non-etch shape.
+\t (03:45:26) Pick element to be voided.
+\i (03:45:27) pick grid 31.7115 38.1394
+\t (03:45:27) last pick:  31.7500 38.2500
+\e (03:45:27) Cannot void a non-etch shape.
+\t (03:45:27) Pick element to be voided.
+\i (03:45:28) pick grid 35.1632 39.4999
+\t (03:45:28) last pick:  35.2500 39.5000
+\e (03:45:28) Cannot void a non-etch shape.
+\t (03:45:28) Pick element to be voided.
+\i (03:45:30) done 
+\i (03:45:30) generaledit 
+\i (03:45:31) pick grid 31.5855 38.1394
+\t (03:45:31) last pick:  31.5000 38.2500
+\i (03:45:31) pick grid 31.2328 38.1394
+\t (03:45:31) last pick:  31.2500 38.2500
+\i (03:45:41) shape void element 
+\i (03:45:43) pick grid 30.5273 39.2480
+\t (03:45:43) last pick:  30.5000 39.2500
+\e (03:45:43) Cannot void a non-etch shape.
+\t (03:45:43) Pick element to be voided.
+\i (03:45:46) pick grid 31.6359 37.9378
+\t (03:45:46) last pick:  31.7500 38.0000
+\e (03:45:46) Cannot void a non-etch shape.
+\t (03:45:46) Pick element to be voided.
+\i (03:45:47) pick grid 31.9130 38.8701
+\t (03:45:47) last pick:  32.0000 38.7500
+\e (03:45:47) Cannot void a non-etch shape.
+\t (03:45:47) Pick element to be voided.
+\i (03:45:48) pick grid 31.8626 38.3662
+\t (03:45:48) last pick:  31.7500 38.2500
+\e (03:45:48) Cannot void a non-etch shape.
+\t (03:45:48) Pick element to be voided.
+\i (03:45:49) pick grid tgl 32.2910 39.0716
+\t (03:45:49) last pick:  32.2500 39.0000
+\e (03:45:49) Cannot void a non-etch shape.
+\t (03:45:49) Pick element to be voided.
+\i (03:45:59) shape merge shapes 
+\t (03:45:59) Pick primary shape to merge to
+\i (03:46:01) pick grid 31.7619 38.0638
+\t (03:46:01) last pick:  31.7500 38.0000
+\t (03:46:01) Pick shapes to be merged
+\i (03:46:03) pick grid 32.8453 38.2402
+\t (03:46:03) last pick:  32.7500 38.2500
+\i (03:46:07) undo 
+\i (03:46:07) trapsize 1260
+\i (03:46:07) generaledit 
+\i (03:46:13) shape change type 
+\i (03:46:16) pick grid 33.4499 39.2732
+\t (03:46:16) last pick:  33.5000 39.2500
+\i (03:46:17) pick grid 31.6611 37.9378
+\t (03:46:17) last pick:  31.7500 38.0000
+\w (03:46:17) WARNING(SPMHGE-482): Change shape type not allowed for non etch shapes.
+\w (03:46:17) WARNING(SPMHGE-482): Change shape type not allowed for non etch shapes.
+\i (03:46:18) cancel 
+\i (03:46:18) generaledit 
+\i (03:46:25) shape void delete 
+\i (03:46:27) pick grid 29.9982 39.8275
+\t (03:46:27) last pick:  30.0000 39.7500
+\i (03:46:31) pick grid 31.6359 38.3158
+\t (03:46:31) last pick:  31.7500 38.2500
+\i (03:46:32) pick grid 31.4595 38.2402
+\t (03:46:32) last pick:  31.5000 38.2500
+\i (03:46:33) pick grid 32.9460 40.0542
+\t (03:46:33) last pick:  33.0000 40.0000
+\i (03:46:34) cancel 
+\i (03:46:34) generaledit 
+\i (03:46:39) pick grid 31.4091 38.2906
+\t (03:46:39) last pick:  31.5000 38.2500
+\i (03:46:39) pick grid 31.2328 38.2906
+\t (03:46:39) last pick:  31.2500 38.2500
+\i (03:47:13) shape void delete 
+\i (03:47:14) pick grid 31.1824 39.3236
+\t (03:47:14) last pick:  31.2500 39.2500
+\i (03:47:16) pick grid 31.7115 38.0134
+\t (03:47:16) last pick:  31.7500 38.0000
+\i (03:47:17) pick grid 34.0798 38.4921
+\t (03:47:17) last pick:  34.0000 38.5000
+\i (03:47:56) cancel 
+\i (03:47:57) generaledit 
+\i (03:48:01) decompose shape 
+\t (03:48:01) Created Class/Subclass DRAWING FORMAT/CONSTRUCTION
+   (03:48:02) Loading apt.cxt 
+\i (03:48:06) pick 31.6107 38.6181
+\t (03:48:06) last pick:  31.6107 38.6181
+\i (03:48:07) pick 32.5681 39.1724
+\t (03:48:07) last pick:  32.5681 39.1724
+\t (03:48:07) No Element Found.
+\i (03:48:07) pick 32.0138 38.8701
+\t (03:48:07) last pick:  32.0138 38.8701
+\i (03:48:09) pick 31.6359 38.1142
+\t (03:48:09) last pick:  31.6359 38.1142
+\i (03:48:10) cancel 
+\i (03:48:11) generaledit 
+\i (03:48:13) pick grid 31.6107 37.9882
+\t (03:48:13) last pick:  31.5000 38.0000
+\i (03:48:14) pick grid tgl 32.4673 38.6685
+\t (03:48:14) last pick:  32.5000 38.7500
+\i (03:48:17) decompose shape 
+\i (03:48:19) pick 31.7619 38.1394
+\t (03:48:19) last pick:  31.7619 38.1394
+\i (03:48:20) pick 32.3665 38.3410
+\t (03:48:20) last pick:  32.3665 38.3410
+\i (03:48:35) cancel 
+\i (03:48:36) generaledit 
+\i (03:48:37) pick grid 31.6863 39.4495
+\t (03:48:37) last pick:  31.7500 39.5000
+\i (03:48:39) decompose shape 
+\i (03:48:42) pick 31.7115 39.3740
+\t (03:48:42) last pick:  31.7115 39.3740
+\i (03:48:43) prepopup 31.9382 39.3488
+\i (03:48:45) pop Done 
+\i (03:48:45) generaledit 
+\i (03:48:46) pick grid 31.4595 39.3488
+\t (03:48:46) last pick:  31.5000 39.2500
+\i (03:48:47) pick grid 31.7115 39.3488
+\t (03:48:47) last pick:  31.7500 39.2500
+\i (03:48:47) prepopup 31.7115 39.3488
+\e (03:49:02) Command not found: Del
+\i (03:49:03) delete 
+\i (03:49:03) generaledit 
+\i (03:49:04) pick grid 31.6359 38.2654
+\t (03:49:04) last pick:  31.7500 38.2500
+\i (03:49:05) pick grid 31.5351 38.4417
+\t (03:49:05) last pick:  31.5000 38.5000
+\i (03:49:06) pick grid 31.6611 38.1394
+\t (03:49:06) last pick:  31.7500 38.2500
+\i (03:49:07) delete 
+\i (03:49:07) pick grid 34.1050 39.1976
+\t (03:49:07) last pick:  34.0000 39.2500
+\i (03:49:08) pick grid 31.5603 38.4669
+\t (03:49:08) last pick:  31.5000 38.5000
+\t (03:49:08) Shape "Board Geometry/Soldermask_Top"
+\i (03:49:09) pick grid 34.0294 39.3992
+\t (03:49:09) last pick:  34.0000 39.5000
+\i (03:49:10) pick grid 31.5351 38.2906
+\t (03:49:10) last pick:  31.5000 38.2500
+\i (03:49:10) pick grid 32.7949 38.4165
+\t (03:49:10) last pick:  32.7500 38.5000
+\t (03:49:10) Line "Drawing Format/Construction"
+\i (03:49:12) pick grid 32.2406 39.1976
+\t (03:49:12) last pick:  32.2500 39.2500
+\t (03:49:12) Line "Drawing Format/Construction"
+\i (03:49:15) pick grid 31.6107 38.0134
+\t (03:49:15) last pick:  31.5000 38.0000
+\t (03:49:15) Line "Drawing Format/Construction"
+\i (03:49:16) zoom in 
+\i (03:49:16) setwindow pcb
+\i (03:49:16) zoom in 26.9748 36.9552
+\i (03:49:16) trapsize 630
+\i (03:49:17) pick grid 31.5981 38.1898
+\t (03:49:17) last pick:  31.5000 38.2500
+\i (03:49:18) pick grid 31.6359 38.4543
+\t (03:49:18) last pick:  31.7500 38.5000
+\t (03:49:18) Line "Drawing Format/Construction"
+\i (03:49:20) zoom out 
+\i (03:49:20) setwindow pcb
+\i (03:49:20) zoom out 26.9747 36.9552
+\i (03:49:20) trapsize 1260
+\i (03:49:20) zoom out 
+\i (03:49:20) setwindow pcb
+\i (03:49:20) zoom out 26.9749 36.9552
+\i (03:49:20) trapsize 2520
+\i (03:49:31) setwindow form.find
+\i (03:49:31) FORM find all_off  
+\i (03:49:32) FORM find cline_segs YES 
+\i (03:49:34) setwindow pcb
+\i (03:49:34) drag_start grid 35.0877 41.6919
+\i (03:49:34) drag_stop 30.0990 32.6216
+\i (03:49:35) drag_start grid 36.1459 32.5713
+\i (03:49:35) drag_stop 30.1494 42.4982
+\i (03:49:46) setwindow form.find
+\i (03:49:46) FORM find other_segs YES 
+\i (03:49:46) FORM find clines YES 
+\i (03:49:47) FORM find lines YES 
+\i (03:49:48) setwindow pcb
+\i (03:49:48) drag_start grid 38.6150 41.4400
+\i (03:49:48) drag_stop 27.1260 30.6564
+\i (03:49:49) drag_start grid 37.1537 42.4982
+\i (03:49:49) drag_stop 25.2615 27.9857
+\i (03:49:50) roam x -96 
+\i (03:49:50) roam x -96
+\i (03:49:51) roam y 96 
+\i (03:49:51) roam y 96
+\i (03:49:51) roam y 96 
+\i (03:49:51) roam y 96
+\i (03:49:51) roam x -96 
+\i (03:49:51) roam x -96
+\i (03:49:51) roam x -96 
+\i (03:49:51) roam x -96
+\i (03:49:52) roam x -96 
+\i (03:49:52) roam x -96
+\i (03:49:54) zoom out 
+\i (03:49:54) setwindow pcb
+\i (03:49:54) zoom out 7.5996 27.2550
+\i (03:49:54) trapsize 5039
+\i (03:49:55) drag_start grid -16.6383 44.5894
+\i (03:49:56) drag_stop 42.5202 20.5027
+\i (03:49:58) pick grid tgl 5.3320 25.0379
+\t (03:49:58) last pick:  5.2500 25.0000
+\i (03:49:59) roam y -96 
+\i (03:49:59) roam y -96
+\i (03:50:00) roam y 96 
+\i (03:50:00) roam y 96
+\i (03:50:01) zoom in 
+\i (03:50:01) setwindow pcb
+\i (03:50:01) zoom in 10.5726 27.2047
+\i (03:50:01) trapsize 2520
+\i (03:50:01) zoom in 
+\i (03:50:01) setwindow pcb
+\i (03:50:01) zoom in 10.5726 27.2047
+\i (03:50:01) trapsize 1260
+\i (03:50:04) zoom out 
+\i (03:50:04) setwindow pcb
+\i (03:50:04) zoom out 10.5727 27.2047
+\i (03:50:04) trapsize 2520
+\i (03:50:04) prepopup 12.5378 28.0614
+\i (03:50:06) cancel 
+\i (03:50:07) generaledit 
+\i (03:50:08) roam y 96 
+\i (03:50:08) roam y 96
+\i (03:50:08) roam y -96 
+\i (03:50:08) roam y -96
+\i (03:50:08) roam x 96 
+\i (03:50:08) roam x 96
+\i (03:50:09) roam y -96 
+\i (03:50:09) roam y -96
+\i (03:50:10) zoom out 
+\i (03:50:10) setwindow pcb
+\i (03:50:10) zoom out 15.4101 32.0421
+\i (03:50:10) trapsize 5039
+\i (03:50:11) drag_start grid -18.0492 41.9187
+\i (03:50:12) drag_stop 43.6288 20.3516
+\i (03:50:16) pick grid tgl -0.1102 47.9656
+\t (03:50:16) last pick:  0.0000 48.0000
+\i (03:50:18) pick grid tgl 14.5031 24.8867
+\t (03:50:18) last pick:  14.5000 25.0000
+\i (03:50:20) prepopup 15.0070 36.2750
+\i (03:50:24) compose shape 
+   (03:50:25) Loading apt_utils.cxt 
+\i (03:50:29) pick 32.2405 38.8953
+\t (03:50:29) last pick:  32.2405 38.8953
+\i (03:50:34) zoom in 
+\i (03:50:34) setwindow pcb
+\i (03:50:34) zoom in 15.4101 32.0422
+\i (03:50:34) trapsize 2520
+\i (03:50:34) zoom in 
+\i (03:50:34) setwindow pcb
+\i (03:50:34) zoom in 15.4101 32.0422
+\i (03:50:34) trapsize 1260
+\i (03:50:35) roam x 96 
+\i (03:50:35) roam x 96
+\i (03:50:35) roam x 96 
+\i (03:50:35) roam x 96
+\i (03:50:35) roam x 96 
+\i (03:50:35) roam x 96
+\i (03:50:36) roam x 96 
+\i (03:50:36) roam x 96
+\i (03:50:36) roam y -96 
+\i (03:50:36) roam y -96
+\i (03:50:36) roam y -96 
+\i (03:50:36) roam y -96
+\i (03:50:36) roam y -96 
+\i (03:50:36) roam y -96
+\i (03:50:36) roam x 96 
+\i (03:50:36) roam x 96
+\i (03:50:37) pick 32.2154 40.0038
+\t (03:50:37) last pick:  32.2154 40.0038
+\t (03:50:37) No Element Found.
+\i (03:50:38) pick 31.8374 38.1141
+\t (03:50:38) last pick:  31.8374 38.1141
+\i (03:50:39) pick 31.2579 39.8022
+\t (03:50:39) last pick:  31.2579 39.8022
+\i (03:50:39) pick 32.1902 41.4147
+\t (03:50:39) last pick:  32.1902 41.4147
+\t (03:50:39) No Element Found.
+\i (03:50:40) cancel 
+\i (03:50:41) generaledit 
+\i (03:50:41) pick grid 32.8704 39.0212
+\t (03:50:41) last pick:  32.7500 39.0000
+\i (03:50:43) pick grid 32.1902 39.0212
+\t (03:50:43) last pick:  32.2500 39.0000
+\i (03:50:49) opencd C:/work/arm/New/allegro/armino.brd 
+\e (03:50:49) Do you want to save the changes you made to C:/work/cam/pcb-delay/allegro/DELAY.brd?
+\i (03:50:56) fillin no 
+\t (03:50:56) Opening existing design...
+\i (03:50:57) trapsize 2617
+\t (03:50:57)     Journal end - Wed Feb 26 19:13:22 2014
