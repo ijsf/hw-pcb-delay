@@ -1,0 +1,37 @@
+G04 ================== begin FILE IDENTIFICATION RECORD ==================*
+G04 Layout Name:  C:/work/cam/pcb-delay/allegro/DELAY.brd*
+G04 Film Name:    delay_2_BOTTOM*
+G04 File Format:  Gerber RS274X*
+G04 File Origin:  Cadence Allegro 16.6-S023*
+G04 Origin Date:  Wed Feb 26 20:44:03 2014*
+G04 *
+G04 Layer:  VIA CLASS/BOTTOM*
+G04 Layer:  PIN/BOTTOM*
+G04 Layer:  ETCH/BOTTOM*
+G04 *
+G04 Offset:    (0.0000 0.0000)*
+G04 Mirror:    No*
+G04 Mode:      Positive*
+G04 Rotation:  0*
+G04 FullContactRelief:  No*
+G04 UndefLineWidth:     0.0250*
+G04 ================== end FILE IDENTIFICATION RECORD ====================*
+%FSLAX25Y25*MOMM*%
+%IR0*IPPOS*OFA0.00000B0.00000*MIA0B0*SFA1.00000B1.00000*%
+%ADD10C,1.524*%
+G75*
+%LPD*%
+G75*
+G36*
+G01X25000Y425000D02*
+X2475000D01*
+Y2475000D01*
+X25000D01*
+Y425000D01*
+G37*
+G54D10*
+X225000Y300000D03*
+X1225000D03*
+X2275000D03*
+X1775000D03*
+M02*

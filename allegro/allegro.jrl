@@ -919,4 +919,109 @@
 \t (00:11:00) last pick:  -1.2500 1.2500
 \i (00:11:01) shape select 
 \i (00:11:04) pick grid 7.3476 0.3464
-\t (00:11:04) last p
+\t (00:11:04) last pick:  7.2500 0.2500
+\t (00:11:04) DRC errors detected.
+\i (00:11:05) drag_start grid 7.3476 0.3464
+\t (00:11:05) last pick:  7.3476 0.2500
+\i (00:11:07) drag_stop grid 7.3476 4.3272
+\t (00:11:07) No DRC errors detected.
+\i (00:11:18) done 
+\i (00:11:19) generaledit 
+\i (00:11:23) 3d_viewer 
+\i (00:11:23) setwindow pcb3D
+\i (00:11:23) trapsize 2520
+\i (00:11:23) setwindow pcb
+\i (00:11:23) generaledit 
+\i (00:11:45) save 
+\i (00:11:47) fillin yes 
+\i (00:11:48) generaledit 
+\i (00:13:09) nctape_full 
+\w (00:13:10) WARNING(SPMHMF-272): NC Parameters file 'nc_param.txt' not found ... loading defaults.
+\i (00:13:13) setwindow form.nc_drill
+\i (00:13:13) FORM nc_drill parameters  
+\i (00:13:23) setwindow form.nc_parameters
+\i (00:13:23) FORM nc_parameters cancel  
+\i (00:13:39) setwindow form.nc_drill
+\i (00:13:39) FORM nc_drill tape_name 'gerber`\DELAY.drl' 
+\i (00:13:42) fillin confirm
+\i (00:13:44) FORM nc_drill browse  
+\i (00:13:50) fillin "C:\work\cam\pcb-delay\gerber\DELAY.drl"
+\i (00:13:51) FORM nc_drill execute  
+\t (00:13:51) Starting Generating NC Drill...
+\i (00:13:55) FORM nc_drill cancel  
+\i (00:13:55) setwindow pcb
+\i (00:13:55) generaledit 
+\i (00:13:57) zoom fit 
+\i (00:13:57) trapsize 2520
+\i (00:14:38) artwork 
+\i (00:14:52) setwindow form.film_control
+\i (00:14:52) FORM film_control cancel  
+\i (00:14:53) setwindow pcb
+\i (00:14:53) generaledit 
+\e (00:16:11) Command not found: exec
+\e (00:16:15) Command not found: ns_gerber.il
+\i (00:16:31) run ns_gerber 
+\w (00:16:32) Run returned non-zero status =-127.
+\i (00:16:32) roam y -96 
+\i (00:16:32) roam y -96
+\i (00:16:36) run ns_gerber.il 
+\w (00:16:36) Run returned non-zero status =-127.
+\i (00:16:46) run 'c:`\work`\cam`\pcb-delay`\ns_gerber.il' 
+\w (00:16:46) Run returned non-zero status =-127.
+\e (00:16:55) Command not found: load
+\i (00:17:00) skill 
+\i (00:17:01) skill load 
+   (00:17:01) *Error* load: too few arguments (at least 1 expected, 0 given) - nil
+   (00:17:01) ERROR
+\i (00:17:06) skill 'load c:`\work`\cam`\pcb-delay`\ns_gerber.il' 
+   (00:17:06) *Error* eval: unbound variable - c
+   (00:17:06) ERROR
+\i (00:17:16) skill 'load("c:`\work`\cam`\pcb-delay`\ns_gerber.il")' 
+   (00:17:16) 
+   (00:17:16) load("c:\work\cam\pcb-delay\ns_gerber.il"
+   (00:17:16)                                         ^
+   (00:17:16) PARSER WARNING at line 1 column 41 of file *string*
+   (00:17:16) *WARNING* (Parser): character found after backslash is not meaningful - c:\work\cam\pcb-delay\ns_gerber.il
+   (00:17:16) 
+   (00:17:16) load("c:\work\cam\pcb-delay\ns_gerber.il"
+   (00:17:16)                                         ^
+   (00:17:16) PARSER WARNING at line 1 column 41 of file *string*
+   (00:17:16) *WARNING* (Parser): character found after backslash is not meaningful - c:workk\cam\pcb-delay\ns_gerber.il
+   (00:17:16) 
+   (00:17:16) load("c:\work\cam\pcb-delay\ns_gerber.il"
+   (00:17:16)                                         ^
+   (00:17:16) PARSER WARNING at line 1 column 41 of file *string*
+   (00:17:16) *WARNING* (Parser): character found after backslash is not meaningful - c:workcamam\pcb-delay\ns_gerber.il
+   (00:17:16) *Error* load: can't access file - "c:workcampcb-delay\ns_gerber.il"
+   (00:17:16) ERROR
+\i (00:17:19) roam y -96 
+\i (00:17:19) roam y -96
+\i (00:17:19) roam x -96 
+\i (00:17:19) roam x -96
+\i (00:17:27) skill 'load("c:/work/cam/pcb-delay/ns_gerber.il")' 
+   (00:17:27) t
+\i (00:17:29) skill ns_gerber 
+\i (00:17:35) fillin confirm
+   (00:17:35) Loading cmds.cxt 
+   (00:17:35) t
+\i (00:17:37) setwindow text
+\i (00:17:37) close 
+\i (00:17:41) setwindow pcb
+\i (00:17:41) roam y -96 
+\i (00:17:41) roam y -96
+\i (00:17:42) skill  
+   (00:17:42) nil
+\i (00:17:43) skill ns_gerber 
+\i (00:17:46) fillin confirm
+   (00:17:46) t
+\i (00:17:49) setwindow text
+\i (00:17:49) close 
+\i (00:17:54) setwindow pcb
+\i (00:17:54) artwork 
+\i (00:17:58) setwindow form.film_control
+\i (00:17:58) FORM film_control cancel  
+\i (00:17:59) setwindow pcb
+\i (00:17:59) generaledit 
+\i (00:18:02) ncdrill legend 
+\i (00:18:07) setwindow form.nc_drilllegend
+\i (00:18:07) FORM
