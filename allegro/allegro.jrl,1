@@ -1,0 +1,117 @@
+\t (00:00:05) allegro 16.6 S019 (v16-6-112BG) Windows 32
+\t (00:00:05)     Journal start - Sun Feb 23 15:42:23 2014
+\t (00:00:05)         Host=IJSFT User=ijsf Pid=4632 CPUs=2
+\t (00:00:05) 
+\t (00:00:07) Opening existing design...
+\d (00:00:07) Database opened: C:/WORK/CAM/PCB-DELAY/allegro/DELAY.brd
+\t (00:00:08) Grids are drawn 2.0000, 2.0000 apart for enhanced viewability.
+\i (00:00:08) trapsize 15285
+\i (00:00:08) trapsize 14384
+\i (00:00:08) trapsize 15446
+\i (00:00:08) trapsize 15625
+\t (00:00:11) Grids are drawn 1.0000, 1.0000 apart for enhanced viewability.
+\i (00:00:11) trapsize 10504
+\i (00:00:11) trapsize 10504
+\i (00:00:12) generaledit 
+\i (00:00:15) trapsize 7689
+\i (00:00:22) place manual 
+\i (00:00:24) setwindow form.plc_manual
+\i (00:00:24) FORM plc_manual tree 'MULTISEL YES' J1 'Components by refdes' 
+\t (00:00:24) Placing J1 / HEADER 1_HEADER1_A / HEADER1 on Top.
+\i (00:00:24) FORM plc_manual tree  J1 'Components by refdes' 
+\i (00:00:25) FORM plc_manual tree 'MULTISEL YES' J2 'Components by refdes' 
+\i (00:00:25) FORM plc_manual tree  J2 'Components by refdes' 
+\i (00:00:36) setwindow pcb
+\i (00:00:36) show property 
+\i (00:00:38) setwindow form.show_prop
+\i (00:00:38) FORM show_prop done  
+\i (00:00:46) setwindow pcb
+\i (00:00:46) image restore last 
+   (00:00:46) Loading ui.cxt 
+\i (00:00:56) showhide options 
+\i (00:00:57) trapsize 9921
+\i (00:01:02) image restore last 
+\i (00:01:10) zoom in 
+\i (00:01:10) setwindow pcb
+\i (00:01:10) zoom in 35.7143 24.8016
+\i (00:01:10) trapsize 4960
+\i (00:01:11) roam y -96 
+\i (00:01:11) roam y -96
+\i (00:01:11) roam y -96 
+\i (00:01:11) roam y -96
+\i (00:01:14) zoom in 
+\i (00:01:14) setwindow pcb
+\i (00:01:14) zoom in 25.8929 43.8492
+\i (00:01:14) trapsize 2480
+\i (00:01:15) roam x -96 
+\i (00:01:15) roam x -96
+\i (00:01:15) roam x -96 
+\i (00:01:15) roam x -96
+\i (00:01:15) roam x -96 
+\i (00:01:15) roam x -96
+\i (00:01:16) roam x 96 
+\i (00:01:16) roam x 96
+\i (00:01:16) roam x 96 
+\i (00:01:16) roam x 96
+\i (00:01:16) roam x -96 
+\i (00:01:16) roam x -96
+\i (00:01:35) setwindow form.plc_manual
+\i (00:01:35) FORM plc_manual cancel  
+\i (00:01:36) setwindow pcb
+\i (00:01:36) generaledit 
+\i (00:01:37) zoom out 
+\i (00:01:37) setwindow pcb
+\i (00:01:37) zoom out 16.3690 43.8492
+\i (00:01:37) trapsize 4960
+\i (00:01:38) roam y 96 
+\i (00:01:38) roam y 96
+\i (00:01:38) roam y 96 
+\i (00:01:38) roam y 96
+\i (00:02:01) setwindow form.mini
+\i (00:02:01) FORM mini class PLAN 
+\i (00:02:09) FORM mini class BOARD GEOMETRY 
+\i (00:02:15) FORM mini subclass ASSEMBLY_DETAIL 
+\i (00:02:25) FORM mini subclass ASSEMBLY_NOTES 
+\i (00:02:26) setwindow pcb
+\i (00:02:26) generaledit 
+\i (00:02:28) etchedit 
+\i (00:02:31) generaledit 
+\i (00:02:40) setwindow form.mini
+\i (00:02:40) FORM mini class BOARD GEOMETRY 
+\i (00:02:42) FORM mini subclass SILKSCREEN_TOP 
+\i (00:02:49) setwindow pcb
+\i (00:02:49) roam y -96 
+\i (00:02:49) roam y -96
+\i (00:02:49) roam y -96 
+\i (00:02:49) roam y -96
+\i (00:02:49) roam y 96 
+\i (00:02:49) roam y 96
+\i (00:02:56) roam y 96 
+\i (00:02:56) roam y 96
+\i (00:02:56) roam y 96 
+\i (00:02:56) roam y 96
+\i (00:02:57) roam y -96 
+\i (00:02:57) roam y -96
+\i (00:02:59) roam y -96 
+\i (00:02:59) roam y -96
+\i (00:03:16) roam y 96 
+\i (00:03:16) roam y 96
+\i (00:03:16) roam y 96 
+\i (00:03:16) roam y 96
+\i (00:03:16) roam y 96 
+\i (00:03:16) roam y 96
+\i (00:03:19) place manual 
+\i (00:03:22) setwindow form.plc_manual
+\i (00:03:22) FORM plc_manual tree 'MULTISEL YES' J1 'Components by refdes' 
+\t (00:03:22) Placing J1 / HEADER 1_HEADER1_A / HEADER1 on Top.
+\i (00:03:22) FORM plc_manual tree  J1 'Components by refdes' 
+\i (00:03:23) FORM plc_manual tree 'MULTISEL YES' J2 'Components by refdes' 
+\i (00:03:23) FORM plc_manual tree  J2 'Components by refdes' 
+\i (00:04:48) setwindow pcb
+\i (00:04:48) pick grid 12.3015 2.0834
+\t (00:04:48) last pick:  12.5000  2.0000
+\t (00:04:48) Placing J2 / HEADER 1_HEADER1_B / HEADER1 on Top.
+\i (00:04:54) pick grid 12.6983 19.8413
+\t (00:04:54) last pick:  12.5000  20.0000
+\i (00:04:57) setwindow form.plc_manual
+\i (00:0
