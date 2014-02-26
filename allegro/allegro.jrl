@@ -1925,4 +1925,132 @@
 \t (04:11:47) Pick new location for the element(s).
 \i (04:11:50) pick grid 13.5480 21.5863
 \t (04:11:50) last pick:  13.5000 21.5000
-\i 
+\i (04:11:51) generaledit 
+\i (04:11:57) drag_start grid 13.3805 22.2985
+\i (04:11:57) move 
+\t (04:11:57) last pick:  13.5000 21.5000
+\t (04:11:57) Pick new location for the element(s).
+\i (04:11:58) drag_stop grid 19.6017 20.9579
+\i (04:11:58) generaledit 
+\i (04:12:00) oops 
+\i (04:12:01) undo 
+\i (04:12:01) trapsize 1047
+\i (04:12:02) generaledit 
+\i (04:12:02) pick grid 23.2675 22.5080
+\t (04:12:02) last pick:  23.2500 22.5000
+\i (04:12:03) drag_start grid 23.4141 22.9479
+\i (04:12:04) drag_stop 13.7994 18.3814
+\i (04:12:06) prepopup 14.7420 21.6073
+\i (04:12:07) pop dyn_option_select @:@Move 
+\i (04:12:07) move 
+\t (04:12:07) last pick:  14.7500 21.5000
+\t (04:12:07) Pick new location for the element(s).
+\i (04:12:10) pick grid 14.8049 21.8796
+\t (04:12:10) last pick:  14.7500 22.0000
+\i (04:12:11) generaledit 
+\i (04:12:12) prepopup 14.9096 22.1938
+\i (04:12:13) pop dyn_option_select @:@Move 
+\i (04:12:13) move 
+\t (04:12:14) last pick:  15.0000 22.2500
+\t (04:12:14) Pick new location for the element(s).
+\i (04:12:16) pick grid 15.1610 22.1100
+\t (04:12:16) last pick:  15.2500 22.0000
+\i (04:12:16) generaledit 
+\i (04:12:18) pick grid 25.5717 22.9479
+\t (04:12:18) last pick:  25.5000 23.0000
+\i (04:12:20) roam x -96 
+\i (04:12:20) roam x -96
+\i (04:12:20) roam x -96 
+\i (04:12:20) roam x -96
+\i (04:12:21) roam x 96 
+\i (04:12:21) roam x 96
+\i (04:12:21) roam x 96 
+\i (04:12:21) roam x 96
+\i (04:12:28) roam x -96 
+\i (04:12:28) roam x -96
+\i (04:12:28) roam x -96 
+\i (04:12:28) roam x -96
+\i (04:12:30) roam y -96 
+\i (04:12:30) roam y -96
+\i (04:12:31) roam y 96 
+\i (04:12:31) roam y 96
+\i (04:12:31) roam x 96 
+\i (04:12:31) roam x 96
+\i (04:12:31) roam x 96 
+\i (04:12:31) roam x 96
+\i (04:12:38) prepopup 21.5289 22.2985
+\i (04:12:44) prepopup 20.6910 21.7748
+\i (04:12:45) pop dyn_option_select '@:@Text edit' 
+\i (04:12:45) text edit 
+\i (04:12:49) setwindow form.textedit
+\i (04:12:49) FORM textedit str 'pcb delay proto' 
+\i (04:12:49) FORM textedit done  
+\i (04:12:49) setwindow pcb
+\i (04:12:49) pick 0.0000 0.0000
+\t (04:12:49) Pick text to edit.
+\i (04:12:49) setwindow pcb
+\i (04:12:49) generaledit 
+\i (04:12:50) pick grid 25.5507 21.5235
+\t (04:12:50) last pick:  25.5000 21.5000
+\i (04:12:52) zoom out 
+\i (04:12:52) setwindow pcb
+\i (04:12:52) zoom out 15.9989 20.8741
+\i (04:12:52) trapsize 2095
+\i (04:12:53) roam y 96 
+\i (04:12:53) roam y 96
+\i (04:12:53) roam x -96 
+\i (04:12:53) roam x -96
+\i (04:12:54) roam x -96 
+\i (04:12:54) roam x -96
+\i (04:12:55) roam y 96 
+\i (04:12:55) roam y 96
+\i (04:12:55) roam x 96 
+\i (04:12:55) roam x 96
+\i (04:12:55) roam y 96 
+\i (04:12:55) roam y 96
+\i (04:12:57) save 
+\i (04:13:02) fillin yes 
+\i (04:13:02) generaledit 
+\i (04:13:34) zoom out 
+\i (04:13:34) setwindow pcb
+\i (04:13:34) zoom out 11.9351 8.8085
+\i (04:13:34) trapsize 4189
+\i (04:13:35) roam y -96 
+\i (04:13:35) roam y -96
+\i (04:13:35) roam y -96 
+\i (04:13:35) roam y -96
+\i (04:13:35) roam y -96 
+\i (04:13:35) roam y -96
+\i (04:13:36) roam y 96 
+\i (04:13:36) roam y 96
+\i (04:13:36) roam y 96 
+\i (04:13:36) roam y 96
+\i (04:13:37) roam y -96 
+\i (04:13:37) roam y -96
+\i (04:13:38) roam y -96 
+\i (04:13:38) roam y -96
+\i (04:13:42) pick grid -6.4983 48.9850
+\t (04:13:42) last pick:  -6.5000 49.0000
+\i (04:13:42) shape select 
+\i (04:13:44) pick grid 5.6510 49.9905
+\t (04:13:44) last pick:  5.7500 50.0000
+\i (04:13:46) drag_start grid 9.0863 49.8229
+\t (04:13:46) last pick:  9.0863 50.0000
+\i (04:13:50) drag_stop grid 9.0863 26.8649
+\t (04:13:50) No DRC errors detected.
+\i (04:13:52) done 
+\i (04:13:52) generaledit 
+\i (04:13:54) prepopup 3.7239 25.0216
+\i (04:13:55) pop dyn_option_select @:@Delete 
+\i (04:13:55) delete 
+\i (04:13:55) generaledit 
+\i (04:13:56) prepopup 2.9698 26.7811
+\i (04:13:58) pick grid -2.2251 46.8065
+\t (04:13:58) last pick:  -2.2500 46.7500
+\i (04:13:59) shape select 
+\i (04:14:01) pick grid 5.3158 26.7811
+\t (04:14:01) last pick:  5.2500 26.7500
+\i (04:14:04) drag_start grid 5.3996 26.9487
+\t (04:14:04) last pick:  5.3996 26.7500
+\i (04:14:07) drag_stop grid 5.8186 25.0216
+\t (04:14:07)
