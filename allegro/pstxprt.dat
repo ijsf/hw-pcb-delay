@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 16.6.0 d001Feb-26-2014 at 18:26:07 }
+{ Using PSTWRITER 16.6.0 d001Feb-26-2014 at 20:22:18 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='DELAY';
@@ -44,26 +44,6 @@ SECTION_NUMBER 1
  '@DELAY.SCHEMATIC1(SCH_1):INS721@CONNECTOR.HEADER 1.NORMAL(CHIPS)':
  C_PATH='@delay.schematic1(sch_1):ins721@connector.\header 1.normal\(chips)',
  P_PATH='@delay.schematic1(sch_1):page1_ins721@connector.\header 1.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- J1 'CONN FLEX 24_FFC24-05_CONN FLEX':;
-
-SECTION_NUMBER 1
- '@DELAY.SCHEMATIC1(SCH_1):INS903@CONNECTOR.CONN FLEX 24.NORMAL(CHIPS)':
- C_PATH='@delay.schematic1(sch_1):ins903@connector.\conn flex 24.normal\(chips)',
- P_PATH='@delay.schematic1(sch_1):page1_ins903@connector.\conn flex 24.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- J2 'HEADER 12X2_HEADER-2X12_HEADER':;
-
-SECTION_NUMBER 1
- '@DELAY.SCHEMATIC1(SCH_1):INS1016@CONNECTOR.HEADER 12X2.NORMAL(CHIPS)':
- C_PATH='@delay.schematic1(sch_1):ins1016@connector.\header 12x2.normal\(chips)',
- P_PATH='@delay.schematic1(sch_1):page1_ins1016@connector.\header 12x2.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
