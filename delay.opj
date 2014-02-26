@@ -17,7 +17,7 @@
     ("Allegro Netlist Output Board File" "allegro\DELAY.brd")
     ("Allegro Netlist Remove Etch" "FALSE")
     ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
-    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Netlist Open Board in Allegro" "NEITHER")
     ("Allegro Setup Backup Versions" "3")
     ("Allegro Setup Output Warnings" "TRUE")
     ("Allegro Setup Ignore Constraints" "FALSE")
@@ -38,6 +38,14 @@
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    ("HEADER 12X2"
+      (FullPartName "HEADER 12X2.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("CONN FLEX 24"
+      (FullPartName "CONN FLEX 24.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
     ("HEADER 1"
       (FullPartName "HEADER 1.Normal")
       (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
@@ -53,16 +61,6 @@
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -4 -26 0 200 0 239"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -26 50 898 50 319")
-        (Scroll "0 47")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "C:\WORK\CAM\PCB-DELAY\DELAY.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE1")))
+      (Tab 0)))
   (MPSSessionName "ijsf")
   (ISPCBBASICLICENSE "false"))
