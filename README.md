@@ -4,7 +4,7 @@ This PCB has been designed as an experimental prototype board containing copper 
 
 This board has been designed using Cadence ORCad Capture and Cadence Allegro PCB Editor 16.6.
 
-![](raw/a006f22137ab0ebba0516b55935a4cbfac78fe06/gerber/rev-1.0/oshpark/preview_top.png)
+![](https://raw.githubusercontent.com/ijsf/hw-pcb-delay/master/gerber/rev-1.0/oshpark/preview_top.png)
 
 ## Version history
 
